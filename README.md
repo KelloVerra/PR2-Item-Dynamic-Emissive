@@ -2,7 +2,7 @@
 A Proof Of Concept Utility Resource Pack that serves to enable dynamic emissive!
 
 # Requirements
-- (To Disable Default Minecraft Shading) Overriding a leather armor (helmet, leggings, boots, chestplate or horse_armor)
+- (To Disable Default Minecraft Shading) Overriding any kind of leather armor (helmet, leggings, boots, chestplate or horse_armor)
 
 
 # Disable Default Minecraft Shading
@@ -10,8 +10,8 @@ A Proof Of Concept Utility Resource Pack that serves to enable dynamic emissive!
 The upside of this method is that it still preserves the light level, so if you want to made an entire model emissive, just set the block & sky brightness to 15
 
 - Begin by setting the tint-index on all the faces of your preferred model to `0` (See minecraft:item/shroomlight)
-- Then override a leather armor's custom model data to your preferred model (See minecraft:item/leather_boots)
-- Get the overrided leather armor AND set the display color to `#20240f` / `2106383`
+- Then override any kind of leather armor's custom model data to your preferred model (See minecraft:item/leather_boots)
+- Get the overrided leather armor **AND set the display color to** `#20240f` / `2106383`
 
 ### Ingame Example (Shroomlight Decoy)
 (Left) `/summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16777215},CustomModelData:1}}}`
@@ -27,11 +27,11 @@ The upside of this method is that it still preserves the light level, so if you 
 
 # Dynamic Texture Emissivity
 ## This type off emissivity doesnt necessarrily require disabling the minecraft default shading
-Its another way to enable emmisivity to a certain area on the texture
+Its another way to enable emmisivity to a certain area on the texture.
 
 - Open up your preferred texture 
 - Select parts that you want to make emissive
-- Set the alpha/transparency to `254` (See minecraft:block/ice for proof of concept)
+- Set the alpha/transparency to `254` (See minecraft:block/matrix_cube or minecraft:block/matrix_cube_entire)
 
 ### Ingame Example (Matrix Cube)
 (Left) `/summon item_display ~ ~ ~ {item:{id:"minecraft:ice",Count:1b,tag:{CustomModelData:1}}}`
