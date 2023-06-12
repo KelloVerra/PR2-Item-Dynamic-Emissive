@@ -11,7 +11,8 @@ The upside of this method is that it still preserves the light level, so if you 
 - Begin by setting the tint-index on all the faces of your preferred model to `0` (See minecraft:item/shroomlight)
 - Then override a leather armor's custom model data to your preferred model (See minecraft:item/leather_boots)
 - Get the overrided leather armor AND set the display color to `#20240f` / `2106383`
-Ingame Example (Shadeless Shroomlight) : `/summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{color:2106383},CustomModelData:1}}}`
+Ingame Example (Shadeless Shroomlight) `/summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:2106383},CustomModelData:1}}}`
+Ingame Example (Emissive Shroomlight) `/summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:2106383},CustomModelData:1}},brightness:{block:15,sky:15}}`
 
 
 
@@ -20,4 +21,4 @@ This type off emissivity doesnt necessarrily require disabling the minecraft def
 - Open up your preferred texture 
 - Select parts that you want to make emissive
 - Set the alpha/transparency to `254` (See minecraft:block/ice for proof of concept)
-Ingame Example (Matrix Cube) : `/summon item_display ~ ~ ~ {item:{id:"minecraft:ice",Count:1b,tag:{CustomModelData:1}}}`
+Ingame Example (Matrix Cube) `/summon item_display ~ ~ ~ {item:{id:"minecraft:ice",Count:1b,tag:{CustomModelData:1}}}`
