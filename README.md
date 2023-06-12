@@ -15,8 +15,11 @@ The upside of this method is that it still preserves the light level, so if you 
 
 ### Ingame Example (Shroomlight Decoy)
 (Left) `/summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16777215},CustomModelData:1}}}`
+
 (Middle) `/summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:2106383},CustomModelData:1}}}`
+
 (Right) `/summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:2106383},CustomModelData:1}},brightness:{block:15,sky:15}}`
+
 ![image](https://github.com/KelloVerra/PR2-Item-Dynamic-Emissive/assets/71198584/0ee59725-b9cc-49ff-bb98-89fc21b6168f)
 
 
@@ -32,8 +35,11 @@ Its another way to enable emmisivity to a certain area on the texture
 
 ### Ingame Example (Matrix Cube)
 (Left) `/summon item_display ~ ~ ~ {item:{id:"minecraft:ice",Count:1b,tag:{CustomModelData:1}}}`
+
 (Middle) `/summon item_display ~ ~ ~ {item:{id:"minecraft:ice",Count:1b,tag:{CustomModelData:2}}}`
+
 (Right) `/summon item_display ~ ~ ~ {item:{id:"minecraft:ice",Count:1b,tag:{CustomModelData:3}}}`
+
 ![image](https://github.com/KelloVerra/PR2-Item-Dynamic-Emissive/assets/71198584/178aabc6-1976-4687-9034-bc4fff514884)
 
 
