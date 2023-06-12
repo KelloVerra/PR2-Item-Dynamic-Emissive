@@ -42,6 +42,7 @@ Its another way to enable emmisivity to a certain area on the texture
 
 ![image](https://github.com/KelloVerra/PR2-Item-Dynamic-Emissive/assets/71198584/178aabc6-1976-4687-9034-bc4fff514884)
 
-
+## Extra feature
+When it comes for translucent texture, it might gets quite difficult to get a pixel with an alpha below 24/255, Ive made it so that it will discard a pixel it it has an alpha lower than 1/255 (See minecraft:shaders/core/rendertype_entity_translucent_cull.fsh).
 
 Tips : Make sure to `/time set midnight` !
