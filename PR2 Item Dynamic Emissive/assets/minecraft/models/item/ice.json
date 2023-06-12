@@ -6,6 +6,18 @@
 				"custom_model_data": 1
 			},
 			"model": "minecraft:item/matrix_cube"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "minecraft:item/matrix_cube_unlit"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "minecraft:item/matrix_cube_entire"
 		}
 	]
 }
