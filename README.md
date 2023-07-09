@@ -2,7 +2,7 @@
 A Proof Of Concept Utility Resource Pack that serves to enable dynamic emissive!
 
 # Requirements
-- To Disable Default Minecraft, requires Overriding any kind of leather armor (helmet, leggings, boots, chestplate or horse_armor)
+- To Disable Default Minecraft Face Shading, requires Overriding any kind of leather armor (helmet, leggings, boots, chestplate or horse_armor)
 
 
 # Disable Default Minecraft Shading
